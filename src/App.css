@@ -1,0 +1,52 @@
+/* Fondo blanco más grande */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+}
+
+/* Contenedor general que envuelve todo */
+.wrapper {
+  display: flex;
+  gap: 40px; /* Espacio entre columnas */
+  padding: 40px;
+  background-color: white; /* Fondo blanco detrás */
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de cada columna */
+.column-container {
+  background-color: #93c5fd; /* Azul */
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+/* Columnas con cajas dentro */
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Tamaño de las cajas */
+.box {
+  width: 140px;
+  height: 80px;
+  border: 2px solid black; /* Bordes negros */
+}
+
+/* Colores de las cajas */
+.red {
+  background-color: #f87171;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
