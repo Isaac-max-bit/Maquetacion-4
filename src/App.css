@@ -45,8 +45,12 @@ body {
 /* Colores de las cajas */
 .red {
   background-color: #f87171;
+  width: 160px;
+  height: 120px;
 }
 
 .orange {
   background-color: #f59e0b;
+  width: 140px;
+  height: 110px;
 }
